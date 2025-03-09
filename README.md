@@ -5,6 +5,7 @@
 
 ## Project Architecture
 ![Architecture Diagram](Project_Architecture.png)
+
 The architecture follows a **serverless data pipeline** approach:
 
 1. **Data Extraction:** AWS Lambda extracts football data from API-SPORTS and stores it in **S3 (raw_data folder)**.
