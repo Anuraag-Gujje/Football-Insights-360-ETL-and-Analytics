@@ -12,7 +12,7 @@ The architecture follows a **serverless data pipeline** approach:
 2. **Data Modeling:** Designed a structured, denormalized schema for easy query performance and future scalability.
 3. **Data Transformation:** AWS Glue processes raw data using PySpark and outputs structured data into **S3 (transformed_data folder)**.
 4. **Data Load & Orchestration:** Apache Airflow automates the pipeline by transferring transformed data from **S3 to Redshift**.
-5. **Data Storage:** Amazon Redshift Serverless acts as a central data warehouse for structured data.
+5. **Data Warehouse & Analytics:** Amazon Redshift Serverless acts as a central data warehouse for structured data.
 6. **Visualization:** Looker Studio directly connects to Redshift for real-time dashboard insights.
 
 ## Tech Stack
@@ -64,7 +64,11 @@ The data model is designed to be **structured and denormalized** for efficient A
   - League standings
   - Team performance metrics
   - Match results & trends
-  - Leaderboards for Top Performers
+  - Leaderboard for Top Performers
+
+![Dashboard Page1](Dashboard_Page1.png)
+
+![Dashboard Page2](Dashboard_Page2.png)
 
 ## Challenges & Solutions
 | Challenge | Solution |
