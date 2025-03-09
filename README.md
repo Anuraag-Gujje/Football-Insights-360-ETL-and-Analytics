@@ -81,13 +81,8 @@ The data model is designed to be **structured and denormalized** for efficient A
 | Direct Looker Studio connection had slow response times | Used **Redshift Serverless + Materialized Views** to speed up dashboard loading |
 
 ## Future Enhancements
-- Create a end to end website to insert data of ongoing matches and also accomodate real time Analytic dashboards.
-- Create a SQL DB to structurally store transformed data instead of putting it back in s3
-- Integrate **machine learning models** for match result predictions.
-
-## Future Enhancements
 - Develop a **fully integrated web application** to input live match data and enable **real-time analytics dashboards**.
-- Implement a **dedicated SQL database** to store transformed data, ensuring better data integrity and faster ACID operations for live incoming match data.
+- Implement a **dedicated SQL database** to store transformed data, ensuring better data integrity and faster ACID operations for incoming match data from the web app.
 - Integrate **machine learning models** to predict match outcomes and player performance using historical and real-time data.
 
 ## Contributors
