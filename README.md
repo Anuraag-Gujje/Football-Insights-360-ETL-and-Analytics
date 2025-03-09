@@ -25,6 +25,8 @@ The architecture follows a **serverless data pipeline** approach:
 ## Data Modeling
 The data model is designed to be **structured and denormalized** for efficient ACID operations and scalability. The schema follows a **star schema** approach with fact and dimension tables:
 
+![Data Model Diagram](Data_Model.png)
+
 ### **Fact Tables:**
 1. **Fact_Player_Statistics**: Contains player-level performance data such as goals, assists, tackles, and passing accuracy etc. for each fixture.
 2. **Fact_Team_Statistics**: Stores match-level team statistics such as possession, shots, and fouls etc..
