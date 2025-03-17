@@ -5,6 +5,7 @@
 
 ## Links
 Medium Article: https://medium.com/@gujje.anuraag/football-insights-360-586943ff5afa
+
 Looker Dashboard: https://lookerstudio.google.com/reporting/26a7d6e6-2036-4c94-864b-f42894877764
 
 ## Project Architecture
