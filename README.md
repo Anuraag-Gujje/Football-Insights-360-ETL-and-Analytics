@@ -3,6 +3,10 @@
 ## Overview
 **Football Insights 360** is an end-to-end **ETL & Analytics** project that extracts, transforms, stores, and visualizes football data from the **API-SPORTS** service. The project leverages **AWS cloud services, Apache Airflow, and Looker Studio** to process data from the **top football leagues**, providing structured insights through an interactive dashboard.
 
+## Links
+Medium Article: https://medium.com/@gujje.anuraag/football-insights-360-586943ff5afa
+Looker Dashboard: https://lookerstudio.google.com/reporting/26a7d6e6-2036-4c94-864b-f42894877764
+
 ## Project Architecture
 ![Architecture Diagram](Project_Architechture.png)
 
